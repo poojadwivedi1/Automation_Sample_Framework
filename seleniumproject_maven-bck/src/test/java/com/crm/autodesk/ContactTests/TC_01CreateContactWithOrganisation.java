@@ -77,6 +77,7 @@ WebDriver driver;
 		//logout
         WebElement ele=driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
         WebLib.mouseOver(driver, ele);
+        //test for commit
 		driver.findElement(By.linkText("Sign Out")).click();
 
 		
