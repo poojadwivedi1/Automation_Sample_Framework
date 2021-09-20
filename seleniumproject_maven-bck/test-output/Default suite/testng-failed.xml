@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="ConvertLeadTest"/>
+          <include name="logOutOfApp"/>
+          <include name="closeBrowser"/>
+          <include name="closeTheDB"/>
+          <include name="connectToDb"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

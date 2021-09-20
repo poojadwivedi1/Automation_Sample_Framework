@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34317" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34317" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:44 IST">
+      <class name="com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest">
+        <test-method status="PASS" signature="connectToDb()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="connectToDb" is-config="true" duration-ms="13" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDb -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="launchBrowser" is-config="true" duration-ms="5585" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="loginToApp" is-config="true" duration-ms="3981" started-at="2021-09-20T12:22:15 IST" finished-at="2021-09-20T12:22:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="ConvertLeadTest()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="ConvertLeadTest" duration-ms="22532" started-at="2021-09-20T12:22:19 IST" finished-at="2021-09-20T12:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConvertLeadTest -->
+        <test-method status="PASS" signature="logOutOfApp()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="logOutOfApp" is-config="true" duration-ms="2072" started-at="2021-09-20T12:22:42 IST" finished-at="2021-09-20T12:22:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutOfApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2021-09-20T12:22:44 IST" finished-at="2021-09-20T12:22:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeTheDB()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="closeTheDB" is-config="true" duration-ms="1" started-at="2021-09-20T12:22:44 IST" finished-at="2021-09-20T12:22:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDB -->
+      </class> <!-- com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
