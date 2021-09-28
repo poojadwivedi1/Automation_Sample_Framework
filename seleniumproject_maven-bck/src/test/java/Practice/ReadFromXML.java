@@ -11,10 +11,10 @@ public class ReadFromXML {
 	public static void main(String[] args) {
 		
 	
-	public void readDataFromxml(Object xmlObj)
-	{
-		System.out.println(xmlObj.getParameter("browser"));
-	}
+		/*
+		 * public void readDataFromxml(Object xmlObj) {
+		 * System.out.println(xmlObj.getParameter("browser")); }
+		 */
 
 }
 }

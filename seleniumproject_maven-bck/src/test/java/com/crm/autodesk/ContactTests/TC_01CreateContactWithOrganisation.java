@@ -76,8 +76,7 @@ WebDriver driver;
 		driver.findElement(By.xpath("//input[@title='Save [Alt+S]']")).click();
 		//logout
         WebElement ele=driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
-        WebLib.mouseOver(driver, ele);
-        //test for commit
+       // WebLib.mouseover(driver, ele);
 		driver.findElement(By.linkText("Sign Out")).click();
 
 		

@@ -2,40 +2,43 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34317" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:44 IST">
+  <suite name="Default suite" duration-ms="10074" started-at="2021-09-20T19:06:56 IST" finished-at="2021-09-20T19:07:06 IST">
     <groups>
+      <group name="smokesuits">
+        <method signature="TC_21_CreateLeadTest.CreateLeadTest()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="CreateLeadTest" class="com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest"/>
+      </group> <!-- smokesuits -->
     </groups>
-    <test name="Default test" duration-ms="34317" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:44 IST">
-      <class name="com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest">
-        <test-method status="PASS" signature="connectToDb()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="connectToDb" is-config="true" duration-ms="13" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:10 IST">
+    <test name="Default test" duration-ms="10074" started-at="2021-09-20T19:06:56 IST" finished-at="2021-09-20T19:07:06 IST">
+      <class name="com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest">
+        <test-method status="PASS" signature="connectToDb()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="connectToDb" is-config="true" duration-ms="6" started-at="2021-09-20T19:06:56 IST" finished-at="2021-09-20T19:06:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToDb -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="launchBrowser" is-config="true" duration-ms="5585" started-at="2021-09-20T12:22:10 IST" finished-at="2021-09-20T12:22:15 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="launchBrowser" is-config="true" duration-ms="2949" started-at="2021-09-20T19:06:56 IST" finished-at="2021-09-20T19:06:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="loginToApp" is-config="true" duration-ms="3981" started-at="2021-09-20T12:22:15 IST" finished-at="2021-09-20T12:22:19 IST">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="loginToApp" is-config="true" duration-ms="1412" started-at="2021-09-20T19:06:59 IST" finished-at="2021-09-20T19:07:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="ConvertLeadTest()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="ConvertLeadTest" duration-ms="22532" started-at="2021-09-20T12:22:19 IST" finished-at="2021-09-20T12:22:42 IST">
+        <test-method status="PASS" signature="CreateLeadTest()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="CreateLeadTest" duration-ms="4696" started-at="2021-09-20T19:07:01 IST" finished-at="2021-09-20T19:07:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ConvertLeadTest -->
-        <test-method status="PASS" signature="logOutOfApp()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="logOutOfApp" is-config="true" duration-ms="2072" started-at="2021-09-20T12:22:42 IST" finished-at="2021-09-20T12:22:44 IST">
+        </test-method> <!-- CreateLeadTest -->
+        <test-method status="PASS" signature="logOutOfApp()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="logOutOfApp" is-config="true" duration-ms="856" started-at="2021-09-20T19:07:05 IST" finished-at="2021-09-20T19:07:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutOfApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2021-09-20T12:22:44 IST" finished-at="2021-09-20T12:22:44 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="closeBrowser" is-config="true" duration-ms="48" started-at="2021-09-20T19:07:06 IST" finished-at="2021-09-20T19:07:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeTheDB()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest@3439f68d]" name="closeTheDB" is-config="true" duration-ms="1" started-at="2021-09-20T12:22:44 IST" finished-at="2021-09-20T12:22:44 IST">
+        <test-method status="PASS" signature="closeTheDB()[pri:0, instance:com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest@17695df3]" name="closeTheDB" is-config="true" duration-ms="1" started-at="2021-09-20T19:07:07 IST" finished-at="2021-09-20T19:07:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheDB -->
-      </class> <!-- com.crm.autodesk.LeadTeast.TC_22_ConvertLeadTest -->
+      </class> <!-- com.crm.autodesk.LeadTeast.TC_21_CreateLeadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
